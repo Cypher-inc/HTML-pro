@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3_2.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myHeader">TO DO List</h1>
+
+<!-- STEPs 1 and 2 below here  -->
+<input type="button" class="Addbutton" onclick="addTask()" value="Add" id="addButton"/>
+
+<input type="text"  placeholder="enter task.. "  id="input"/>
+
+ <hr>
+
+<ul id="tasks">
+
+  <li>
+
+    <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+
+    <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+
+
+    Make todo list
+
+  </li>
+
+ </ul>
+
+ <p id="demo"></p>
+<hr>
+
+<!-- STEPs 8 and 9 below here  -->
+<div id="divabout">
+    <input type="button" class="About" onclick="doAbout()" value="About" />
+
+
+<!-- STEP 13 below here  -->
+<input type="button" class="clear" onclick="clearAbout()" value="Clear" />
+</div>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<script src="w3_2.js"></script>
+</body>
+</html>

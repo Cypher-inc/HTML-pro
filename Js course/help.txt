@@ -1,0 +1,16 @@
+git clone
+ls
+git status
+git add . 
+git commit -m "msg"
+git status
+git push
+git status
+
+git checkout master
+
+
+browser-sync start --server --directory --files "**/*"
+
+
+https://www.youtube.com/watch?v=uwXiW2NjfUU
